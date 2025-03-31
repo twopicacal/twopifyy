@@ -1,0 +1,14 @@
+{
+  "name": "github-mp3-backend",
+  "version": "1.0.0",
+  "description": "MP3 Player with Upload and Playlists",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "echo 'No build step required'"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1"
+  }
+}
